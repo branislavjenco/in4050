@@ -28,6 +28,10 @@
 - pick a random solution as current best
 - compare to neighbouring solutions, if better, replace the current best
 - repeat for some time
+![Exploration](exploration.png?raw=true "Exploration")
+![Exploitation](exploitation.png?raw=true "Exploitation")
+![Mix](mix.png?raw=true "Mix")
+
 
 
 
