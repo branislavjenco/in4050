@@ -1,4 +1,4 @@
-# Week 1
+# Week 1 - Introduction
 
 ## Machine learning
 ability of a program to learn from experience
