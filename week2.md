@@ -14,7 +14,17 @@
 - timetabling
 - travelling salesman
 
-## Optimization methods
+## Typical continuous optimization problems
+- design of mechanical shapes
+- economics - portfolio, risk management
+- control systems
+
+## Exploration vs Exploitation
+![Exploration](exploration.png?raw=true "Exploration")
+![Exploitation](exploitation.png?raw=true "Exploitation")
+![Mix](mix.png?raw=true "Mix")
+
+## Discreete optimization
 ### 1. Exhaustive search
 - brute force
 - test all possible solutions, pick the best
@@ -28,10 +38,19 @@
 - pick a random solution as current best
 - compare to neighbouring solutions, if better, replace the current best
 - repeat for some time
-![Exploration](exploration.png?raw=true "Exploration")
-![Exploitation](exploitation.png?raw=true "Exploitation")
-![Mix](mix.png?raw=true "Mix")
-
+### 3. Simulated Annealing
+- simulating a thermal process for obtaining low energy states
+- set an initial temperature T
+- pick an initial solution
+- repeat:
+  - pick a neighbouring solution
+  - if the new one is better, keep it
+  - otherwise, keep the new one with probability p that depends on the difference in quality and the temperature 
+  - reduce T
+## Continuous Optimization
+### 4. Gradient descent/ascent
+- because f(x) is continous, we can calculate the gradient - that tells us in which direction the function increases the most
+  
 
 
 
