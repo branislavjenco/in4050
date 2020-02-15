@@ -1,4 +1,4 @@
-# Search and Optimization
+# Week 2 - Search and Optimization
 
 ## What we need for optimization
 - a numerical representation _x_ for all possible solutions to the problem
