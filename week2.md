@@ -12,7 +12,7 @@
 ## Typical discreete optimization problems
 - chip design
 - timetabling
-- travelling salesman
+- travelling salesman (NP-hard)
 
 ## Typical continuous optimization problems
 - design of mechanical shapes
@@ -38,6 +38,7 @@
 - pick a random solution as current best
 - compare to neighbouring solutions, if better, replace the current best
 - repeat for some time
+- terrible with lots of foothills, plateaus, gentle sloping ridges
 ### 3. Simulated Annealing
 - simulating a thermal process for obtaining low energy states
 - set an initial temperature T
@@ -50,6 +51,16 @@
 ## Continuous Optimization
 ### 4. Gradient descent/ascent
 - because f(x) is continous, we can calculate the gradient - that tells us in which direction the function increases the most
+- level sets = full set of places that have the same function value (plateaus)
+- how to decide how far to go:
+  - line search - move until we reach a minimum in direction
+  - trust region - making a local model of the function as a quadratic form and finding minimum of that
+- how to decide the direction:
+  - steepest descent - just go down as fast as possible (not always great)
+  - second derivates (Hessian) might help in cases
+  
+  
+  - 
   
 
 
